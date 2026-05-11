@@ -75,10 +75,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Snack Overflow — keep your pantry fresh" },
       { name: "description", content: "Track inventory, expirations, recipes & grocery lists for your kitchen." },
       { name: "author", content: "Snack Overflow" },
-      { property: "og:title", content: "Snack Overflow" },
-      { property: "og:description", content: "Cute, modern pantry & recipe manager." },
+      { property: "og:title", content: "Snack Overflow — keep your pantry fresh" },
+      { property: "og:description", content: "Track inventory, expirations, recipes & grocery lists for your kitchen." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Snack Overflow — keep your pantry fresh" },
+      { name: "twitter:description", content: "Track inventory, expirations, recipes & grocery lists for your kitchen." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d295431a-ce77-4895-9c18-025361fbd2e0/id-preview-15e8372c--d6583f6a-d8f9-42a6-9778-c4836c459278.lovable.app-1778534333706.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d295431a-ce77-4895-9c18-025361fbd2e0/id-preview-15e8372c--d6583f6a-d8f9-42a6-9778-c4836c459278.lovable.app-1778534333706.png" },
     ],
     links: [
       {
