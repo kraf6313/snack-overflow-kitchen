@@ -72,14 +72,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Snack Overflow — keep your pantry fresh" },
+      { name: "description", content: "Track inventory, expirations, recipes & grocery lists for your kitchen." },
+      { name: "author", content: "Snack Overflow" },
+      { property: "og:title", content: "Snack Overflow" },
+      { property: "og:description", content: "Cute, modern pantry & recipe manager." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
