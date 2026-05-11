@@ -1,4 +1,5 @@
-import { Link, Outlet } from "@tanstack/react-router";
+import { Link } from "@tanstack/react-router";
+import type { ReactNode } from "react";
 
 const nav = [
   { to: "/", label: "Pantry" },
@@ -9,7 +10,7 @@ const nav = [
   { to: "/manage", label: "Manage" },
 ];
 
-export function AppShell() {
+export function AppShell({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen">
       <header className="sticky top-0 z-30 backdrop-blur bg-background/80 border-b border-border">
@@ -36,7 +37,7 @@ export function AppShell() {
         </div>
       </header>
       <main className="max-w-6xl mx-auto px-4 py-8">
-        <Outlet />
+        {children}
       </main>
       <footer className="text-center text-xs text-muted-foreground py-6">
         Made with 🥕 — keeping your pantry full and fresh
